@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #020f1c;
+}
+
+a {
+  text-decoration: none;
+}
+#header {
+  background: #000;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header_nav {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  font-size: 30px;
+}
+.header_nav a {
+  color: #fff;
+}
+.add {
+  display: flex;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.block input {
+  width: 500px;
+  height: 45px;
+  font-size: 20px;
+  border: 1px solid #d6258f;
+  box-shadow: 5px 3px 2px #d5258f;
+  color: white;
+  background: #020f1c;
+  padding: 0 10px;
+}
+.block_button {
+  padding: 10px;
+  width: 250px;
+  background: #020f1c;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #d5258f;
+  /* background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  ); */
+  box-shadow: 5px 2px 15px 2px violet;
+  border-radius: 20px;
+}
+.home {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.list {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 300px;
+  height: 350px;
+  border: 1px solid #d5258f;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0px;
+  color: #fff;
+}
+
+.box h1 {
+  font-weight: 300;
+  padding: 10px 0;
+}
+.box img {
+  width: 280px;
+  height: 230px;
+}
+.box button {
+  font-size: 30px;
+  padding: 20px;
+  color: #d5258f;
+  border: none;
+  background: none;
+}
+.edit_window {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0000002a;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(3px);
+}
+.edit_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background-color: #020f1c;
+  height: 300px;
+  padding: 60px 20px;
+  border-radius: 15px;
+}
